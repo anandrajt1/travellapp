@@ -1,0 +1,55 @@
+body{
+  background-color: whitesmoke;
+}
+h1{
+  text-align: center;
+}
+
+.card{
+  width: 280px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  box-shadow: rgba(46, 98, 240, 0.4) 5px 5px, rgba(46, 49, 240, 0.3) 10px 10px, rgba(46, 137, 240, 0.2) 15px 15px, rgba(46, 124, 240, 0.1) 20px 20px, rgba(46, 91, 240, 0.05) 25px 25px;
+}
+.card:hover{
+  transform: rotate(-3deg);
+  
+}
+.card-img{
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+.card-body{
+  padding: 10px;
+}
+.card h3{
+  margin: 8px 0 0 0;
+}
+.card p{
+  font-size: 14px;
+}
+
+.card-header{
+position: relative;
+}
+.best{
+  position: absolute;
+  background-color: rgb(107, 4, 4);
+  color: rgba(176, 201, 35, 0.89);
+  font-size: 14px;
+  padding: 5px 14px;
+  margin: 10px;
+  bottom: 0;
+  right: 0;
+  border-radius: 12px;
+}
+.hide{
+  display: none;
+}
+
+.container{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
